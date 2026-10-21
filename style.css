@@ -34,7 +34,6 @@ body {
 .social a:hover { transform: translateY(-2px); }
 .social svg { display: block; fill: #000; }
 .instagram svg { width: 26px; height: 26px; }
-.tiktok svg { width: 26px; height: 26px; }
 .github svg { width: 27px; height: 27px; }
 .gmail svg { width: 37px; height: 26px; }
 .whatsapp svg { width: 26px; height: 26px; }

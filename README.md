@@ -72,7 +72,6 @@ Não precisa instalar nada.
 
 ## Próximos passos
 
-- Adicionar o link do TikTok.
 - Incluir novos projetos na seção **Projects**.
 - Melhorar meu nível de inglês e traduzir a página.
 
