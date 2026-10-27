@@ -19,7 +19,7 @@ Este projeto é o meu cartão de visitas na internet. Ele serve para:
 - Ícones de contato:
   - **Instagram:** abre o perfil [@mthassad](https://www.instagram.com/mthassad/).
   - **GitHub:** abre o perfil [mtassaEmail copied!".d1](https://github.com/mtassad1).
-  - **E-mail: matheusthiagoassadprogam@gmail.com
+  - **E-mail**: matheusthiagoassadprogam@gmail.com
 **Lado direito**
 - **About Me:** quem eu sou, o que estudo e como estou aprendendo front-end.
 - **Projects:** os projetos que desenvolvi, com resumo e link.
