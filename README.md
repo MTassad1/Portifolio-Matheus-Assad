@@ -1,6 +1,6 @@
 # Portfólio | Matheus Thiago
 
-Página pessoal "About Me" e portfólio de **Matheus Thiago**, desenvolvedor front-end iniciante de Florianópolis (SC), Brasil.
+Página pessoal "About Me" e portfólio de Matheus Thiago, desenvolvedor front-end iniciante de Florianópolis (SC), Brasil.
 
 ## Objetivo
 
@@ -18,9 +18,8 @@ Este projeto é o meu cartão de visitas na internet. Ele serve para:
 - Botão **portfolio**, que leva direto para a seção de projetos.
 - Ícones de contato:
   - **Instagram:** abre o perfil [@mthassad](https://www.instagram.com/mthassad/).
-  - **GitHub:** abre o perfil [mtassad1](https://github.com/mtassad1).
-  - **E-mail:** copia o endereço para a área de transferência e mostra o aviso "Email copied!".
-
+  - **GitHub:** abre o perfil [mtassaEmail copied!".d1](https://github.com/mtassad1).
+  - **E-mail: matheusthiagoassadprogam@gmail.com
 **Lado direito**
 - **About Me:** quem eu sou, o que estudo e como estou aprendendo front-end.
 - **Projects:** os projetos que desenvolvi, com resumo e link.
