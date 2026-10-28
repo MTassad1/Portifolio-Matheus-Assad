@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>About Me - Matheus Thiago</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <img class="photo" src="https://i.pinimg.com/736x/6c/21/7a/6c217a822743e6e432c90a859c5361f6.jpg" alt="Foto de Matheus Thiago">
+    <h2>Matheus Thiago</h2>
+    <p class="role">Front-end Developer</p>
+    <a class="btn" href="#projects">portfolio</a>
+    <nav class="social" aria-label="Redes sociais">
+      <a href="https://www.instagram.com/mthassad/" class="instagram" aria-label="Instagram @mthassad" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.2 5.6a1.2 1.2 0 1 1-1.2 1.2 1.2 1.2 0 0 1 1.2-1.2z"/></svg>
+      </a>
+      <a href="https://github.com/mtassad1" class="github" aria-label="GitHub mtassad1" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>
+      </a>
+      <a href="mailto:matheusthiagoassadprogam@gmail.com" class="gmail" id="copy-email" data-email="matheusthiagoassadprogam@gmail.com" aria-label="Copiar e-mail">
+        <svg viewBox="0 0 24 24"><path d="M1 4h4l7 6 7-6h4v16h-4V10.5l-7 6-7-6V20H1z"/></svg>
+      </a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <section class="panel" id="about">
+      <h1>About Me</h1>
+      <div class="text">
+        <p>
+          My name is Matheus Thiago Lima Assad.<br>
+          I’m a 16-year-old aspiring developer based in Florianópolis, Santa Catarina, Brazil. I’m currently taking a technical course in Digital Game Programming, but my passion spans across the broader tech industry. This curiosity naturally drew me to web development, leading me to self-teach front-end skills through platforms like FreeCodeCamp and YouTube.
+        </p>
+        <p>
+          I’ve been working with front-end development for about 4 months. Although I don't claim 100% mastery of HTML + CSS and JavaScript, I’ve built a strong knowledge base and can deliver clean, well-structured, and high-quality web projects. Additionally, I’m independently learning English and currently sit at an A2 proficiency level, capable of understanding simple daily conversations.
+        </p>
+      </div>
+    </section>
+
+    <section class="panel" id="projects">
+      <h1>Projects</h1>
+
+      <div class="filters" role="group" aria-label="Filtrar projetos">
+        <button type="button" class="filter is-active" data-filter="todos" aria-pressed="true">Todos</button>
+        <button type="button" class="filter" data-filter="demonstrativo" aria-pressed="false">Demonstrativo</button>
+        <button type="button" class="filter" data-filter="pagos" aria-pressed="false">Pagos</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+      <article class="project" data-category="demonstrativo">
+        <h3>Linha Escarlate</h3>
+        <p class="project-sub">A demonstrative front-end project: a luxury fashion landing page.</p>
+        <p>
+          A landing page for a fictional high-end clothing brand, built to practice layout, visual identity and responsive design.
+        </p>
+        <ul class="project-list">
+          <li>Hero banner with the brand identity</li>
+          <li>Grid of 8 clothing products</li>
+          <li>Elegant, minimal look, with red only on the brand name</li>
+          <li>Responsive layout</li>
+        </ul>
+        <div class="tags" aria-label="Technologies">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn project-link" href="https://mtassad1.github.io/Landing-Page-Linha-escarlate/" target="_blank" rel="noopener noreferrer">view project</a>
+      </article>
+      <article class="project" data-category="demonstrativo">
+        <h3>entre luz &amp; histórias.</h3>
+        <p class="project-sub">A demonstrative front-end project: a photographer's portfolio website.</p>
+        <p>
+          A portfolio site for a fictional photographer, recreated from a design reference to practice layout, image composition and typography.
+        </p>
+        <ul class="project-list">
+          <li>Hero banner with the photographer's brand and tagline</li>
+          <li>Gallery of 7 photo stories (couples, family, portraits, landscapes)</li>
+          <li>About and contact sections with a WhatsApp link</li>
+        </ul>
+        <div class="tags" aria-label="Technologies">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a class="btn project-link" href="https://mtassad1.github.io/Foto/" target="_blank" rel="noopener noreferrer">view project</a>
+      </article>
+      </div>
+
+      <p class="empty" id="empty" role="status" hidden>Nenhum projeto nesta categoria ainda.</p>
+
+      <a class="back" href="#about">&larr; About me</a>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
